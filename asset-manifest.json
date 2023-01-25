@@ -1,0 +1,12 @@
+{
+  "files": {
+    "main.js": "/sw-app/static/js/main.1315feaa.js",
+    "static/js/787.189ca1f3.chunk.js": "/sw-app/static/js/787.189ca1f3.chunk.js",
+    "index.html": "/sw-app/index.html",
+    "main.1315feaa.js.map": "/sw-app/static/js/main.1315feaa.js.map",
+    "787.189ca1f3.chunk.js.map": "/sw-app/static/js/787.189ca1f3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.1315feaa.js"
+  ]
+}
