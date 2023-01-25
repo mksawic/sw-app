@@ -16,7 +16,7 @@ const AppContainer = styled(Container)`
   padding-top: 16px;
 `;
 
-const App = () => (
+const App: React.FC = () => (
   <AppContainer maxWidth="sm">
     <GameScore />
     <Cards />

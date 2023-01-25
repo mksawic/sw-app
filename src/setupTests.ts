@@ -1,5 +1,5 @@
 import { server } from "./mocks/server.js";
-import "@testing-library/jest-dom/extend-expect";
+import "@testing-library/jest-dom";
 const { getComputedStyle } = window;
 
 beforeAll(() => {

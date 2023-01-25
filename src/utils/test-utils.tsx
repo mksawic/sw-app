@@ -1,4 +1,4 @@
-import React, { ReactElement } from "react";
+import React, { PropsWithChildren, ReactElement } from "react";
 import { render, RenderOptions } from "@testing-library/react";
 import { Provider } from "react-redux";
 import { ThemeProvider } from "@mui/material/styles";
@@ -6,7 +6,7 @@ import CssBaseline from "@mui/material/CssBaseline";
 import theme from "styles/theme";
 import { store } from "store";
 
-const Providers: React.FC = ({ children }) => {
+const Providers: React.FC<PropsWithChildren> = ({ children }) => {
   return (
     <Provider store={store}>
       <ThemeProvider theme={theme}>
